@@ -1,0 +1,78 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+header {
+  margin-top: 1.6rem;
+  margin-bottom: 4.8rem;
+}
+
+footer {
+  color: #888;
+  border-top: 1px solid #eee;
+  padding: 1.6rem 0;
+  margin-top: 1.6rem;
+}
+
+h1 {
+  font-size: 6.4rem;
+  margin-bottom: 1.6rem;
+}
+
+header a {
+  color: #888;
+  margin-right: 1.6rem;
+  text-decoration: none;
+}
+
+.portrait {
+  width: 25rem;
+}
+
+form {
+  margin-top: 1.2rem;
+}
+
+input {
+  border: 1px solid #ccc;
+  padding: 0.8rem;
+}
+
+input:focus {
+  outline: 0;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #888;
+  background: #888;
+  color: #fff;
+  padding: 0.8rem;
+}
+
+#forecast {
+  margin-top: 1.2rem;
+}
