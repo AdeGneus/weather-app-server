@@ -4,7 +4,7 @@ const forecast = document.querySelector("#forecast");
 const error = document.querySelector("#error");
 
 const fetchData = async (address) => {
-  const res = await fetch(`http://localhost:3000/weather?address=${address}`);
+  const res = await fetch(`/weather?address=${address}`);
 
   const data = await res.json();
 
